@@ -6,6 +6,12 @@ Swift4 version updated :NSRegularExpression Tutorial: Getting Started
 
 ### The code is posted on  January 21, 2015 by [James Frost](http://jamesfrost.co.uk)
 
+
+##### the first release v1.0 is the start project
+
+##### the first release v2.0 is the final project
+
+
 Thanks for the good work of Ray Wenderlich.
 
 <hr>
@@ -13,11 +19,11 @@ Thanks for the good work of Ray Wenderlich.
 
 ### Image Description:
 
-##### /Search( and replace)?/
+#### /Search( and replace)?/
 
 <img src="img/newOne.png">
 
-##### Handling Multiple Search Results
+#### Handling Multiple Search Results
 
 <img src="img/newTwo.png">
 
