@@ -32,6 +32,7 @@ class SignUpViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+<<<<<<< HEAD
         textFields = [firstNameField, middleInitialField, lastNameField, dateOfBirthField]
         let patterns = ["^[a-z]{1,10}$",
                         "^[a-z]$",
@@ -78,6 +79,10 @@ class SignUpViewController: UITableViewController {
      */
     
     
+=======
+    }
+
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -143,6 +148,7 @@ class SignUpViewController: UITableViewController {
     */
 
     func validateTextField(textField: UITextField) {
+<<<<<<< HEAD
         let index = textFields.index(of: textField)
         if let regex = regexes[index!], let textReal = textField.text{
             let text = textReal.stringByTrimmingLeadingAndTrailingWhitespace()
@@ -160,6 +166,10 @@ class SignUpViewController: UITableViewController {
      */
     
     
+=======
+    }
+    
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     // MARK: - Actions
     
     @IBAction func doneButtonTapped(_ sender: UIBarButtonItem) {
@@ -221,6 +231,7 @@ extension UIColor {
 
 
 
+<<<<<<< HEAD
 extension String{
     func stringByTrimmingLeadingAndTrailingWhitespace() -> String{
         let leadingAndTrailingWhitespacePattern = "(?:^\\s+)|(?:^\\s+$)"
@@ -281,3 +292,5 @@ extension String{
  */
 
 
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
