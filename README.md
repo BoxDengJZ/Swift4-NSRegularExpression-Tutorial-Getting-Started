@@ -10,8 +10,10 @@ Swift4 version updated :NSRegularExpression Tutorial: Getting Started
 
 ##### the first release v1.0 is the start project
 
-##### the first release v2.0 is the final project
+You can download [start project](https://github.com/BoxDengJZ/Swift4-NSRegularExpression-Tutorial-Getting-Started/archive/v1.0.zip)
 
+##### the first release v2.0 is the final project
+You can download [final project](https://github.com/BoxDengJZ/Swift4-NSRegularExpression-Tutorial-Getting-Started/archive/v2.0.zip)
 
 Thanks for the good work of Ray Wenderlich.
 
