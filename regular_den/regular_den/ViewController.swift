@@ -22,6 +22,7 @@ class ViewController: UIViewController {
 
 
 }
+<<<<<<< HEAD
 /*
  xcode code folding fold comment blocks .      shift + command + 左箭头 + Alt(/Option)
  
@@ -31,4 +32,6 @@ class ViewController: UIViewController {
  
  https://stackoverflow.com/questions/13212288/is-there-a-shortcut-to-make-a-block-comment-in-xcode
  */
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 

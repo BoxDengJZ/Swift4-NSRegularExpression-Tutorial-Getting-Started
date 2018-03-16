@@ -4,8 +4,11 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+<<<<<<< HEAD
 	<key>CFBundleDisplayName</key>
 	<string>regular_expreesion</string>
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,7 +20,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
+<<<<<<< HEAD
 	<string>1.1.0</string>
+=======
+	<string>1.0</string>
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>

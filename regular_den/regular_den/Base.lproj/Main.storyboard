@@ -124,7 +124,11 @@ Project Gutenburg: http://www.gutenberg.org/ebooks/1342</string>
                     <navigationItem key="navigationItem" title="Text Search" id="xsU-uZ-Hru">
                         <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="2XJ-OW-AKV">
                             <connections>
+<<<<<<< HEAD
                                 <action selector="underlineInterestingData:" destination="BYZ-38-t0r" id="UKV-SX-Rme"/>
+=======
+                                <action selector="underlineInterestingData:" destination="BYZ-38-t0r" id="RWd-u2-CzH"/>
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="dpe-NQ-a3h">
@@ -134,7 +138,11 @@ Project Gutenburg: http://www.gutenberg.org/ebooks/1342</string>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="textView" destination="Peh-YN-1TR" id="sCl-7E-VVR"/>
+=======
+                        <outlet property="textView" destination="Peh-YN-1TR" id="gHc-9Z-EYj"/>
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

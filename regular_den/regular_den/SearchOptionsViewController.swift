@@ -144,24 +144,36 @@ class SearchOptionsViewController: UITableViewController {
     @IBAction func searchTapped(_ sender: UIBarButtonItem) {
         var replaceStr: String?
         if replaceTextSwitch.isOn {
+<<<<<<< HEAD
             replaceStr = replacementTextField.text ?? nil
         }
         else{
             replaceStr = nil
         }
         
+=======
+            replaceStr = replacementTextField.text ?? ""
+        }
+        else{
+            replaceStr = ""
+        }
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
         searchOptions = SearchOptions(searchString: searchTextField.text!, replacementString: replaceStr, matchCase: matchCaseSwitch.isOn, wholeWords: wholeWordsSwitch.isOn)
         
         performSegue(withIdentifier: Storyboard.Identifiers.UnwindSegueIdentifier, sender: self)
         
     }
     
+<<<<<<< HEAD
     /*
      Try searching for the word “the” using various options and see the effects. Notice, for example, that when using whole words, the ‘the’ in ‘them’ does not highlight.
      Also, test out the search and replace functionality to see that your text strings are replaced as expected, and try both the ‘match case’ and ‘whole words’ options.
      
      调一下 ， 开关就好了。
      */
+=======
+    
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 
 }
 

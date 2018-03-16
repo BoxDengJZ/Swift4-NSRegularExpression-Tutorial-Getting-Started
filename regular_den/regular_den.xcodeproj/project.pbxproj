@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		23C189C32059190F00702935 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C189C22059190F00702935 /* SignUpViewController.swift */; };
+<<<<<<< HEAD
 		23C189C62059669500702935 /* RegexHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C189C52059669500702935 /* RegexHelpers.swift */; };
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 		23C4944E20583525005D9E49 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4944D20583525005D9E49 /* SearchViewController.swift */; };
 		23C49450205838CC005D9E49 /* SearchOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C4944F205838CC005D9E49 /* SearchOptionsViewController.swift */; };
 		23DE8B402050FBA900530796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE8B3F2050FBA900530796 /* AppDelegate.swift */; };
@@ -39,7 +42,10 @@
 
 /* Begin PBXFileReference section */
 		23C189C22059190F00702935 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		23C189C52059669500702935 /* RegexHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexHelpers.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 		23C4944D20583525005D9E49 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		23C4944F205838CC005D9E49 /* SearchOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOptionsViewController.swift; sourceTree = "<group>"; };
 		23DE8B3C2050FBA900530796 /* regular_den.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = regular_den.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +88,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		23C189C42059668B00702935 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +97,8 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 		23DE8B332050FBA900530796 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +122,10 @@
 		23DE8B3E2050FBA900530796 /* regular_den */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				23C189C42059668B00702935 /* Helper */,
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 				23DE8B3F2050FBA900530796 /* AppDelegate.swift */,
 				23DE8B412050FBA900530796 /* ViewController.swift */,
 				23DE8B432050FBA900530796 /* Main.storyboard */,
@@ -280,7 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23C4944E20583525005D9E49 /* SearchViewController.swift in Sources */,
+<<<<<<< HEAD
 				23C189C62059669500702935 /* RegexHelpers.swift in Sources */,
+=======
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
 				23DE8B422050FBA900530796 /* ViewController.swift in Sources */,
 				23DE8B402050FBA900530796 /* AppDelegate.swift in Sources */,
 				23C49450205838CC005D9E49 /* SearchOptionsViewController.swift in Sources */,

@@ -54,6 +54,7 @@ class SearchViewController: UIViewController {
     
     
     @IBAction func underlineInterestingData(_ sender: UIBarButtonItem) {
+<<<<<<< HEAD
       
         underlineAllDates()
         underlineAllTimes()
@@ -77,10 +78,21 @@ class SearchViewController: UIViewController {
      */
     
     
+=======
+        
+        underlineAllDates()
+        underlineAllTimes()
+        underlineAllLocations()
+        
+        
+        
+    }
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     
     
     //MARK: Underline dates, times, and locations
     
+<<<<<<< HEAD
     func underlineAllDates(){
         if let regex = NSRegularExpression.regularExpressionForDates(){
             let matches = matchesForRegularExpression(regex: regex, inTextView: textView)
@@ -101,6 +113,15 @@ class SearchViewController: UIViewController {
             let matches = matchesForRegularExpression(regex: regex, inTextView: textView)
             highlightMatches(matches: matches)
         }
+=======
+    func underlineAllDates() {
+    }
+    
+    func underlineAllTimes() {
+    }
+    
+    func underlineAllLocations() {
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     }
     
     
@@ -114,7 +135,11 @@ class SearchViewController: UIViewController {
     
     func performSearchWithOptions(searchOptions: SearchOptions){
         self.searchOptions = searchOptions
+<<<<<<< HEAD
         if searchOptions.replacementString != "", let replacementString = searchOptions.replacementString{
+=======
+        if let replacementString = searchOptions.replacementString{
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
             searchForText(searchText: searchOptions.searchString, replaceWith: replacementString, inTextView: textView)
         }
         else{
@@ -125,6 +150,7 @@ class SearchViewController: UIViewController {
     
     //MARK: - Search and HighLight
     func searchForText(searchText: String, replaceWith replacementText: String, inTextView textView: UITextView){
+<<<<<<< HEAD
         let beforeText = textView.text
         let range = NSMakeRange(0, (beforeText?.count)!)
         if let regex = NSRegularExpression(options: self.searchOptions!){
@@ -151,6 +177,15 @@ class SearchViewController: UIViewController {
         
         
         textView.attributedText = attributedText.copy() as! NSAttributedString
+=======
+        
+        
+    }
+    
+    func highlightText(searchText: String, inTextView textView: UITextView) {
+        
+        
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     }
     
     
@@ -164,8 +199,12 @@ class SearchViewController: UIViewController {
     func matchesForRegularExpression(regex: NSRegularExpression, inTextView textView: UITextView) -> [NSTextCheckingResult] {
         if let string = textView.text{
             let range = rangeForAllTextInTextView()
+<<<<<<< HEAD
             let textCheckingResults = regex.matches(in: string, options: NSRegularExpression.MatchingOptions.reportProgress, range: range)
             return textCheckingResults
+=======
+            return regex.matches(in: string, options: NSRegularExpression.MatchingOptions.reportProgress, range: range)
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
         }
         else{
             return []
@@ -179,12 +218,19 @@ class SearchViewController: UIViewController {
         attributedText.removeAttribute(NSAttributedStringKey.backgroundColor, range: attributedTextRange)
         for match in matches{
             let matchRange = match.range
+<<<<<<< HEAD
             attributedText.addAttributes([NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle.rawValue, NSAttributedStringKey.foregroundColor:  UIColor.blue], range: matchRange)
         }
         textView.attributedText = attributedText.copy() as! NSAttributedString
         
         
         
+=======
+            attributedText.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.blue, range: matchRange)
+            attributedText.addAttributes([NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle], range: matchRange)
+        }
+        textView.attributedText = attributedText.copy() as! NSAttributedString
+>>>>>>> 2af15b36ed07041d166414a13d135cfe3e077cfc
     }
 }
 
