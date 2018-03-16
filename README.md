@@ -15,11 +15,11 @@ Thanks for the good work of Ray Wenderlich.
 
 ##### /Search( and replace)?/
 
-<img src="img/imageOne.png">
+<img src="img/newOne.png">
 
 ##### Handling Multiple Search Results
 
-<img src="img/imageTwo.png">
+<img src="img/newTwo.png">
 
 
 <hr>
