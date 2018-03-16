@@ -13,7 +13,12 @@ Thanks for the good work of Ray Wenderlich.
 
 ### Image Description:
 
+##### /Search( and replace)?/
+
 <img src="img/imageOne.png">
+
+##### Handling Multiple Search Results
+
 <img src="img/imageTwo.png">
 
 
